@@ -1,0 +1,566 @@
+.section {
+    width: 600px;
+    border: 1px solid #9b9797;
+}
+
+.group {
+    margin: 10px;
+}
+
+.header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: aliceblue;
+    height: 60px;
+
+}
+
+.h_heading {
+    padding-left: 10px;
+}
+
+.h_heading-h1 {
+    margin: 0;
+    align-items: center;
+    line-height: 60px;
+}
+
+.nav {
+    padding-right: 10px;
+}
+
+.nav_list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_item {
+    padding:0 5px ;
+}
+
+.content {
+    text-align: center;
+    width: 100%;
+}
+
+.content_heading {
+    margin: 0;
+    line-height: 3;
+}
+
+.form_content {
+    width: 100%;
+}
+
+.form_desc {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.form_name {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form_mes {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #666;
+}
+
+.input_send {
+    min-width: 80px ;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0 10px;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.2rem;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Base */
+.grid {  /*  hệ thống lưới*/
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.grid.wide { 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row { /* dòng*/
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.row.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col { /* cột*/
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.row.no-gutters .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.l-0 {
+    display: none;
+}
+
+.l-6 {
+    display: block;
+}
+
+
+.l-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
+/* Bài 3 */
+
+.section_1 {
+    width: 800px;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+.group_bg {
+    background-color: rgba(118, 117, 117, 0.1);
+    border-radius: 4px;
+}
+.header_p {
+    margin: 10px;
+}
+
+.h_heading_1 {
+    padding-left: 10px;
+}
+
+.h_heading-h1-1 {
+    margin: 0;
+    align-items: center;
+    line-height: 40px;
+    border-bottom: 1px solid #666;
+}
+
+.content_1 {
+    width: 600px;
+    margin-bottom: 30px;
+}
+.content_group {
+    background-color: #fff;
+    margin: 4px;
+}
+
+.app_content {
+    padding: 6px;
+}
+
+.content_imgs {
+    background-image: url("/imgs/java.jpg");
+    padding-top: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+.content_h {
+    margin: 0px;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.content_price {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 5px 0;
+}
+
+.add_btn {
+    min-width: 80px ;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0 10px;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.2rem;
+    background-color: #12d6f0;
+    color: #fff;
+}
+
+.footer_1 {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.footer_span {
+    margin: 4px 0;
+}
+
+
+/* Bai4 */
+.cart_group {
+    margin: 30px 50px;
+}
+
+.cart_heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+
+.cart_img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.cart_img-bg {
+    width: 70px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgb(45, 229, 235);
+    position: relative;
+}
+
+.img_payment-cart {
+   width: 100%;
+   height: 100%;
+}
+
+.img_payment-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -6px;
+    right: -6px;
+    border-radius: 50%;
+}
+
+.form_cart {
+    width: 100%;
+   
+}
+
+.form_cart-name {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 4px;
+}
+
+.form_cart-mes {
+    width: 99%;
+    padding: 9px 0;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #12d6f0;
+}
+
+
+.form_cart-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form_cart-item {
+    width: 100%;
+}
+
+
+.form_inner-date {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+.form_input-date {
+    width: 97%;
+    padding: 9px 0;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgba(78, 79, 80, 0.2);
+}
+
+.input_cart {
+    min-width: 130px ;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 0 10px;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.2rem;
+    background-color: #0b9bae;
+    color: #fff;
+    margin: 10px 0;
+}
+
+
+/* Bai 4 */
+
+.group_heading {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.group_heading p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 4px;
+}
+
+.group_section {
+
+}
+
+.section_h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.section_nav {
+    
+}
+
+.section_list {
+    display: flex;
+    list-style: none;
+    padding-left:0;
+    margin: 0;
+}
+
+.section_item {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+    padding: 10px 0;
+}
+.section_item:nth-child(1) {
+    border-bottom: 3px solid #0470c9;
+}
+
+
+.section_content-groups {
+    width: 100%;
+    background-color: #f7f5f3;
+    border-radius: 4px;
+}
+
+.section_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section_hader-desc {
+    width: 50%;
+    text-align: center;
+}
+
+.section_header-status {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.section_header-p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: #605a5a;
+    display: block;
+}
+
+.section_header-number {
+    display: block;
+    width: 50%;
+    text-align: center;
+}
+
+.section_header-span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.section_btn {
+    min-width: 130px ;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 0 10px;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    background-color: #f4f7f8;
+    color: #605a5a;
+}
+
+.content_desc-heading {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: #605a5a;
+    display: block;
+    margin: 20px 0;
+}
+
+.section_btn-group {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px 0 30px 0;
+}
+
+.section_btn-1 {
+    width: 110px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #0470c9;
+}
+
+.section_btn-2 {
+    width: 150px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #e26d0d;
+}
+
+.section_btn-3 {
+    width: 110px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #0de266;
+}
+
+
+
+/* Baif 5 */
+.service_group {
+    background-color: #f4f7f8;
+    border: 0.4px solid #d7d6d6;
+    margin: 20px;
+    border-radius: 7px;
+}
+
+.secvice_group-quang {
+    margin: 20px;
+}
+
+.service_group_heading {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.service_group-content {
+    border-bottom: 1px solid #cbc9c9;
+    padding-bottom: 20px;
+}
+
+.service_group-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.service_group-item-p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #605a5a;
+}
+
+.active {
+    background-color: rgb(218, 222, 255);
+    border-radius: 6px;
+
+}
+
+.service_group-check {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+
+}
+
+.service_group-desc {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+
+.service_group-depature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <title>Nhúng CSS vào trang HTML</title>
+        <style>
+             section {
+                border-radius: 5px;
+                border: 1px solid #666;
+                width: 900px;
+            }
+            div {
+                margin: 0 1em;
+                
+            }
+            h1 {
+                color: yellow;
+            }
+            p:nth-child(2) {
+                color: rgb(74, 74, 247);
+                font-size: 18px;
+                line-height: 1.5;
+                font-weight: 400;
+            }
+            p:nth-child(3) {
+                color: rgb(237, 68, 101);
+                font-size: 18px;
+                line-height: 1.5;
+                font-weight: 400;
+            }
+            p:nth-child(4) {
+                color: #222;
+                font-size: 18px;
+                line-height: 1.5;
+                font-weight: 400;
+                background-color: bisque;
+                padding: 10px 0;
+            }
+          </style>
+    </head>
+
+    <body>
+        <section>
+            <div>
+                <h1>What is CSS ?</h1>
+                <p>Cascading Style Sheets (CSS) is a style sheet language used for specifying the 
+                    presentation and styling of a document written in a markup language such as HTML 
+                    or XML (including XML dialects such as SVG, MathML or XHTML).
+                </p>
+                <p>The name cascading comes from the specified priority scheme to determine 
+                    which declaration applies if more than one declaration of a property match 
+                    a particular element. This cascading priority scheme is predictable.
+                </p>
+                <p><strong>Selector:</strong>
+                    "CSS class" redirects here. <b>For non-CSS</b> use of element classes in HTML, see class attribute (HTML).
+                    In CSS, selectors declare which part of the markup a style applies to by matching tags and attributes in the markup itself.
+                </p>
+            </div>
+        </section>
+    </body>
+</html>

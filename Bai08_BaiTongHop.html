@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Nhúng CSS vào trang HTML</title>
+    <link rel="stylesheet" href="./css/style8.css">
+</head>
+
+<body>
+    <h1>Bài 1: Làm trang web booking Hotel như ở dưới đây</h1>
+    <section class="section">
+        <div class="group">
+            <header class="header">
+                <div class="h_heading">
+                    <h1 class="h_heading-h1">Hotel Search</h1>
+                </div>
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_item">Home</li>
+                        <li class="nav_item">About</li>
+                        <li class="nav_item">Contact</li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="content">
+                <div class="content_header">
+                    <h1 class="content_heading">
+                        Find the Perfect Hotel for You
+                    </h1>
+                    <div class="form_desc">
+                        <form action="" class="form_content">
+                            <label class="form_name" for="Destiration">Destiration:</label> 
+                            <input class="form_mes" type="text" id="name" name="Destiration" required />
+                            <br>
+                            <label class="form_name" for="Check-in">Check-in:</label>
+                            <input class="form_mes" type="date" id="email" name="email" required />
+                            <br>
+                            <label class="form_name" for="Check-out">Check-out:</label>
+                            <input class="form_mes" type="date" id="password" name="Check-out"  required></input>
+                            <br>
+                            <label class="form_name"  for="guests">Guests:</label>
+                            <input class="form_mes" type="number" name="guests" id="">
+                            <br>
+                            <input class="input_send" type="submit" value="Đăng ký" />
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <p>&copy; 2023 Hotel Search. All rights reservent</p>
+            </footer>
+        </div>
+    </section>
+    <h2>Bài 2: Trang web bán hàng</h2>
+    <section class="section_1">
+        <div class="group group_bg">
+            <header class="header_1 header_p">
+                <h1 class="h_heading-h1-1">Home</h1>
+            </header>
+            <section class="content_1">
+                <div class="grid wide">
+                    <div class="row sm-gutter ">
+                        <div class=" l-6 ">
+                            <div  class="content_group app_content">
+                                <div class="content_inner">
+                                    <div class="content_imgs"></div>
+                                    <h4 class="content_h">Sản phẩm 1</h4>
+                                    <span class="content_price">Giá: $10</span>
+                                    <button class="add_btn">Thêm vào giỏ hàng</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="l-6 "> 
+                            <div  class="content_group app_content">
+                                <div class="content_inner">
+                                    <div class="content_imgs"></div>
+                                    <h4 class="content_h">Sản phẩm 1</h4>
+                                    <span class="content_price">Giá: $10</span>
+                                    <button class="add_btn">Thêm vào giỏ hàng</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="l-6 "> 
+                            <div  class="content_group app_content">
+                                <div class="content_inner">
+                                    <div class="content_imgs"></div>
+                                    <h4 class="content_h">Sản phẩm 1</h4>
+                                    <span class="content_price">Giá: $10</span>
+                                    <button class="add_btn">Thêm vào giỏ hàng</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="l-6 "> 
+                            <div  class="content_group app_content">
+                                <div class="content_inner">
+                                    <div class="content_imgs"></div>
+                                    <h4 class="content_h">Sản phẩm 1</h4>
+                                    <span class="content_price">Giá: $10</span>
+                                    <button class="add_btn">Thêm vào giỏ hàng</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer_1">
+                <p class="footer_span">Trang web bán hàng của chúng tôi</p>
+                <p class="footer_span">Error: Admin@gmail.com</p>
+            </footer>
+        </div>
+    </section>
+    <h1>Bài 3: Làm Select Card với hình ảnh có thể lấy trên internet</h1>
+    <section class="section">
+        <div class="cart_group">
+            <h1 class="cart_heading">
+                Select Card
+            </h1>
+            <div class="cart_payment">
+                <div class="cart_img">
+                    <div class="cart_img-bg ">
+                        <img class="img_payment-cart" src="./imgs/2cham.png" alt="">
+                        <img class="img_payment-icon" src="./imgs/cuoi.jpg" alt="">      
+                    </div>
+                    <div class="cart_img-bg">
+                        <img class="img_payment-cart" src="./imgs/jcb.png" alt="">
+                    </div>
+                    <div class="cart_img-bg">
+                        <img class="img_payment-cart" src="./imgs/tragop.png" alt="">
+                    </div>
+                    <div class="cart_img-bg">
+                        <img class="img_payment-cart" src="./imgs/visa.png" alt="">
+                    </div>
+                    <div class="cart_img-bg">
+                        <img class="img_payment-cart" src="./imgs/vt.png" alt="">
+                    </div>
+                </div>
+                <form action="" class="form_cart">
+                    <label class="form_cart-name" for="name">Họ và tên:</label>
+                    <input class="form_cart-mes" type="text" id="name" name="name" required />
+                    <br>
+                    <div class="form_cart-inner">
+                        <div class="form_cart-item">
+                            <label class="form_inner-date" for="date">Expriry Date:</label>
+                            <input class="form_input-date" type="date" id="date" name="date" required />
+                        </div>
+                       
+                        <div class="form_cart-item">
+                            <label class="form_inner-date" for="password">CVC/CVV:</label>
+                            <input class="form_input-date" type="tel" id="password" name="phoneNumber"  required></input>
+                        </div>
+                        
+                    </div>
+                    <input class="input_cart" type="submit" value="Save" />
+                </form>
+            </div>
+        </div>
+    </section>
+    <br>
+    <h1>Bài 4: Tạo trang web giải thưởng</h1>
+    <section class="section">
+        <div class="group">
+            <div class="group_heading">
+                < <p>Home</p> | my rowards
+            </div>
+            <section class="group_section">
+                <h1 class="section_h1">My Rewards</h1>
+                <nav class="section_nav">
+                    <ul class="section_list">
+                        <li class="section_item">Summary</li>
+                        <li class="section_item">About TripGuide Rewards</li>
+                    </ul>
+                  <div class="section_content-groups">
+                    <section class="section_container">
+                        <div class="section_hader-desc">
+                            <h1 class="section_header-status">
+                                Elite status
+                            </h1>
+                            <p class="section_header-p">Point Eamed in 2020</p>
+                        </div>
+                        <div class="section_header-number">
+                            <span class="section_header-span">
+                                18.592
+                            </span>
+                            <button class="section_btn">
+                                With 37 USD
+                            </button>
+                        </div>
+                    </section>
+                    <section class="content_desc-heading">
+                        25 USD is the minimum rowords claim at a time
+                    </section>
+                    <section class="section_btn-group">
+                        <button class="section_btn-1">
+                            <p >
+                                Total Points Pending
+                            </p>
+                            <p>
+                                0
+                            </p>
+                        </button>
+                        <button class="section_btn-2">
+                            <p>
+                                Access mutited and Avaliable Points
+                            </p>
+                            <p>
+                                10.000
+                            </p>
+                        </button>
+                        <button class="section_btn-3">
+                            <p>
+                                Expring Dec 3/2016
+                            </p>
+                            <p>
+                                0
+                            </p>
+                        </button>
+                    </section>
+                  </div>
+                </nav>
+            </section>
+        </div>
+    </section>
+    <br>
+    <h1>Bài 5: Làm trang web có phần thanh toán như sau</h1>
+    <section class="section">
+        <div class="group">
+            <div class="service_group">
+               <div class="secvice_group-quang">
+                <h1 class="service_group_heading">
+                    Price Details
+                </h1> 
+                <section class="service_group-content">
+                    <div class="service_group-list">
+                        <p class="service_group-item">
+                            1x Passenger
+                        </p>
+                        <p class="service_group-item-p">
+                            $360
+                        </p>
+                    </div>
+                    <div class="service_group-list">
+                        <p class="service_group-item">
+                            Tax and fee
+                        </p>
+                        <p class="service_group-item-p">
+                            $8
+                        </p>
+                    </div>
+                    <div class="service_group-list">
+                        <p class="service_group-item">
+                            Service free
+                        </p>
+                        <p class="service_group-item-p">
+                            $2
+                        </p>
+                    </div>
+                    <div class="service_group-list active">
+                        <p class="service_group-item">
+                            Total
+                        </p>
+                        <p class="service_group-item-p">
+                            $360
+                        </p>
+                    </div>
+                </section>
+                <section class="service_group-content">
+                    <div class="service_group-check">
+                        Check-in baggage
+                    </div>
+                    <div class="service_group-desc">
+                        1x aduit 2 children
+                    </div>
+                </section>
+                <section class="service_group-content">
+                    <div class="service_group-check">
+                        Check-in baggage
+                    </div>
+                    <div class="service_group-inners">
+                        <div class="service_group-depature">
+                            <p class="service_group-depature-p">
+                                Depature
+                            </p>
+                            <p class="ervice_group-depature-p">
+                                3 bags (120g total)
+                            </p>
+                        </div>
+                        <div class="service_group-depature">
+                            <p class="service_group-depature-p">
+                                Depature
+                            </p>
+                            <p class="ervice_group-depature-p">
+                                3 bags (120g total)
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="service_group-content">
+                    <div class="service_group-check">
+                        Services
+                    </div>
+                    <div class="service_group-desc">
+                        No extra services seleted
+                    </div>
+                </section>
+               </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
